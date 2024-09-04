@@ -149,7 +149,4 @@ Aa123123!</Memo></Service><Service type="Reference" shortcut="1" reuse="1" uuid=
 	<Messageservers>
 		<Messageserver uuid="2ccef8f3-72cd-4799-94a1-5db0d1385fbd" name="KEP" host="kgprds4.cimc.com" port="3601"/>
 		<Messageserver uuid="20375f53-ef35-4dc3-a1db-cfc302715f9a" name="ZSP" host="192.168.7.102" port="3601"/></Messageservers>
-	<Includes>
-		<Include url="http://www.hs-regensburg.de/downloads/sap/sapgui.xml" description="SAP Reserved" index="0"/>
-	</Includes>
 </Landscape>
