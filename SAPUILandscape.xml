@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Landscape version="1" encoding="UTF-8" timestamp="01/03/2017 14:01:04" updated="2024-09-04T20:18:26Z" generator="SAP GUI for Windows v8000.1.4.155">
 	<Services>
-		<Service uuid="c8e055b2-4101-490a-a1bf-b0fca42cdf76" name="MG DEV NWBC" url="http://ssapdev01.music-group.com:8010/nwbc/" client="200" language="EN" type="NWBC"/>
+		<Service uuid="c8e055b2-4101-490a-a1bf-b0fca42cdf76" name="MG DEV NWBC" url="http://ssapdev01.music-group.com:8010/nwbc/" client="100" language="EN" type="NWBC"/>
 		<Service uuid="9952b070-5d82-43e9-a374-7ee621a962b1" name="IDES PLM" url="http://saperptest.music-group.com:8000/nwbc/" client="800" language="EN" type="NWBC" sapguiid="49e8c3d1-cedc-488d-a513-5c29ef28cbd4"/>
 		<Service uuid="1176e285-d9b2-4589-8229-c9e2816d33be" name="QA500" url="http://ssapqa01.music-group.com:8020/nwbc/" client="500" language="EN" type="NWBC"/>
 		<Service uuid="a654bf73-6dd2-47df-83d5-6d35163408c5" name="Google" url="https://www.google.com/ncr" canvasapptype="BrowserURL" type="SEARCH"/>
