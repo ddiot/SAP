@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Landscape version="1" encoding="UTF-8" timestamp="01/03/2017 14:01:04" updated="2024-09-04T20:18:26Z" generator="SAP GUI for Windows v8000.1.4.155">
+	<Services>
+		<Service uuid="c8e055b2-4101-490a-a1bf-b0fca42cdf76" name="MG DEV NWBC" url="http://ssapdev01.music-group.com:8010/nwbc/" client="200" language="EN" type="NWBC"/>
+		<Service uuid="9952b070-5d82-43e9-a374-7ee621a962b1" name="IDES PLM" url="http://saperptest.music-group.com:8000/nwbc/" client="800" language="EN" type="NWBC" sapguiid="49e8c3d1-cedc-488d-a513-5c29ef28cbd4"/>
+		<Service uuid="1176e285-d9b2-4589-8229-c9e2816d33be" name="QA500" url="http://ssapqa01.music-group.com:8020/nwbc/" client="500" language="EN" type="NWBC"/>
+		<Service uuid="a654bf73-6dd2-47df-83d5-6d35163408c5" name="Google" url="https://www.google.com/ncr" canvasapptype="BrowserURL" type="SEARCH"/>
+		<Service type="SAPGUI" uuid="9b0a3001-cbb5-42e4-b695-077414b9c2a8" name="S/4HANA" systemid="IDS" mode="1" server="10.166.2.151:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service uuid="8fa4cf38-1acd-4c49-a7db-d66c09ebe4e3" name="S4H1610" url="https://s4h.itelligence.com:44300/sap/bc/nwbc" client="300" language="EN" type="NWBC"/>
+		<Service type="SAPGUI" uuid="e4793827-bbb3-40a9-afaa-4a7236b0fa78" name="DMQ HANA (ERP Test CSR)" systemid="DMQ" mode="1" server="zffvdmq2.csrboge.corp:3200" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439" sncop="-1" sapcpg="1100" clocale="EN" dcpg="2"/>
+		<Service type="SAPGUI" uuid="e9882b32-bef7-4870-b937-4da11d8af347" name="DMP HANA (ERP Production CSR)" systemid="DMP" mode="1" server="zffvdmp0.csrboge.corp:3200" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439" sncop="-1" sapcpg="1100" clocale="EN" dcpg="2"/>
+		<Service type="SAPGUI" uuid="1dc7f5d5-d0ab-4507-9766-1ec7e8b53d59" name="DMD HANA (ERP Development CSR)" systemid="DMD" mode="1" server="zffvdmd2.csrboge.corp:3200" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439" sncop="-1" sapcpg="1100" clocale="EN" dcpg="2"/>
+		<Service type="SAPGUI" uuid="3ba4bf63-ad5c-4e78-9f57-61d0bdc4f598" name="S44" systemid="S44" mode="1" server="10.10.35.37:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service uuid="27883980-3517-40cc-a988-ddce17dec29e" name="S44 Fiori" url="https://bfess44.intern.itelligence.de:44300/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html" client="100" type="FIORI" language="EN" sapguiid="3ba4bf63-ad5c-4e78-9f57-61d0bdc4f598" sapguitype="Fallback"/>
+		<Service type="SAPGUI" uuid="06819297-0655-42b2-9923-1da471581e63" name="SB1 [zffvsb10.csrboge.corp]" systemid="SB1" mode="1" server="zffvsb10.csrboge.corp:3200" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="13efc6f2-fa54-4ab3-8b4e-c942a5bec6f7" name="SMP" systemid="SMP" mode="1" server="zffvsmp0.csrboge.corp:3200" routerid="15efdcc0-2470-4449-8ffd-fb1645ccbfcb" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="4449d720-4891-4d73-9b87-32eac2ba910b" name="HED" systemid="HED" mode="1" server="10.146.18.7:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="3226b7f3-46d7-4cbd-9288-80a6d2c2a0e7" name="HEQ" systemid="HEQ" mode="1" server="10.146.18.9:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="e163034d-16a8-4d98-b2ba-b8f7101f635d" name="HEP" systemid="HEP" mode="1" server="10.146.18.12:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service uuid="ee6a1685-71cc-4c4f-ae2c-e5f6dfb7d4b9" name="HED_BC_100" url="https://10.146.18.7:44300/sap/bc/nwbc" type="NWBC" client="100" language="EN" server="172.26.0.75"/>
+		<Service uuid="2c9877c1-66c9-4082-83a1-df145ecc193e" name="HEQ_400" url="https://10.146.18.9:44300/sap/bc/nwbc" client="400" language="EN" type="NWBC"/>
+		<Service uuid="d7c51cb9-4934-4a96-8d4c-7973569afe2d" name="HEQ_BC_400" url="https://echheqci1q.cus.tds.rz:44300/sap/bc/nwbc" client="400" language="EN" type="NWBC"/>
+		<Service uuid="83a05655-31f3-4004-81e5-fe95729a1d6e" name="HEQ_400BC" url="https://echheqci1q.cus.tds.rz:44300/sap/bc/nwbc" client="400" language="EN" type="NWBC"/>
+		<Service type="SAPGUI" uuid="f9fc5f54-16ca-4763-a9b8-5d309daf2dce" name="SB2 [zffvsb20.csrboge.corp]" systemid="SID" mode="1" server="zffvsb20.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439"/>
+		<Service type="SAPGUI" uuid="a69b23b2-2f3c-4282-8887-54393d70317e" name="S4S" systemid="S4S" mode="1" server="10.10.37.58:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="3cc2885a-23e6-49c4-9f3c-5c530fb45516" name="S18" systemid="S18" mode="1" server="10.10.34.185:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="2788c025-53a4-4f52-b484-823d3e371383" name="SB3 [brpvsb30.csrboge.corp]" systemid="SID" mode="1" server="brpvsb30.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439"/>
+		<Service uuid="18637956-b233-4114-b186-b04697da968b" name="HEP_BC" url="https://echhepci1p.cus.tds.rz:44300/sap/bc/nwbc" client="100" language="EN" type="NWBC"/>
+		<Service type="SAPGUI" uuid="a307b78d-e3b3-41b6-8e65-b5653ce7b6e0" name="SM2 [brpvsm20.csrboge.corp]" systemid="SM2" mode="1" server="brpvsm20.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439"/>
+		<Service type="SAPGUI" uuid="dfb68fe3-55b5-4419-9c1a-e4377e637226" name="SB2 Internal [zffvsb20.csrboge.corp]" systemid="SID" mode="1" server="zffvsb20.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="d098d5a3-9f3d-4291-9875-0415cadb9008" name="SB1 Internal [zffvsb10.csrboge.corp]" systemid="SID" mode="1" server="zffvsb10.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="cda2a25f-9be5-4450-b792-6413ab62d60b" name="DMP Internal [zffvdmp0.csrboge.corp]" systemid="DMP" mode="1" server="zffvdmp0.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="7a6ee55d-9515-4db9-8af1-c60b80dd57f0" name="SM1 [zffvsm10.csrboge.corp]" systemid="SM1" mode="1" server="zffvsm10.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439"/>
+		<Service type="SAPGUI" uuid="c11e93a3-45b6-4502-8922-32351d6268b7" name="SM1 Internal [zffvsm10.csrboge.corp]" systemid="SM1" mode="1" server="zffvsm10.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="1ed8c85a-7dc5-4c9e-8443-cef9b9b07afa" name="SM2 Internal [brpvsm20.csrboge.corp]" systemid="SM2" mode="1" server="brpvsm20.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service type="SAPGUI" uuid="ee7785e6-a2a6-44d9-ac6b-f2a9282ed620" name="SB4" systemid="SB4" mode="1" server="brpvdmp0.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2" routerid="92f1be5c-7736-42fb-bda1-4d57e7498439"/>
+		<Service uuid="bd72f378-4c00-4e87-aa76-913d44a00a6f" name="S4 test" description="S4 test" url="https://10.166.2.151:8443/nwbc/~launch" client="400" language="EN" type="NWBC"/>
+		<Service type="SAPGUI" uuid="fdbd1009-5625-49f5-983e-0174d5b5c77c" name="SB4 Internal [brpvdmp0.csrboge.corp]" systemid="SB4" mode="1" server="brpvdmp0.csrboge.corp:3200" sncop="-1" sapcpg="1100" dcpg="2"/>
+		<Service uuid="0c2be45d-ae87-4328-8967-18d21bbf5f4e" name="SB1 NWBC" description="SB1 NWBC" url="https://zffvsb10.csrboge.corp:8300/sap/bc/nwbc" type="NWBC" language="EN"/>
+		<Service type="SAPGUI" uuid="e014da48-bb96-4d56-80ea-5326f87dbea7" name="AliCloud ITE Demo" systemid="IDS" mode="1" server="192.168.10.31:3200" routerid="31f1aee6-7d8b-4ef7-a346-e01e229b3025" sncop="-1" dcpg="2"/>
+		<Service uuid="d0264da2-a0f2-4d86-b8c0-eae0b1aa8dd7" name="ITE S4 Ali Demo" url="http://ites4h01.itelligence.cn:8000/sap/bc/nwbc/" client="200" language="EN" type="NWBC" sapguiid="e014da48-bb96-4d56-80ea-5326f87dbea7"/>
+		<Service type="Reference" uuid="37ca8913-aa92-4db1-aced-971a62967d46" name="ZSD" link="4230dbe5-dd64-4fe0-a5dd-88a0fd3243da"/>
+		<Service type="Reference" uuid="2189a0a1-67ef-4e90-98b7-2d3dcba128e6" name="ZD Sandbox" link="95058e4b-2795-43ec-a1b5-e2855a0f7618"/>
+		<Service type="SAPGUI" uuid="a07c881b-64fb-4dc5-b125-ce6f1750047d" name="ITP" systemid="ITP" mode="1" server="10.1.117.26:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="e7ee3d19-74ef-4d92-ac48-893dadb1a971" name="S/4 Sandbox" systemid="GEX" mode="1" server="10.33.88.215:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="0fee8f70-cb56-40de-9207-3eabbd14f495" name="MDG HMQ" systemid="HMQ" mode="1" server="10.53.2.20:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="41ebf05b-a166-49fe-b5f3-b724c8aac0e5" name="SIT" systemid="SIT" mode="1" server="10.10.34.155:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="e5f2dd99-8452-4581-87da-e18d1b9e1e74" name="STAS-DEV" systemid="KED" mode="1" server="10.53.97.37:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="5ae07867-ffc6-467f-8d0e-dd8cfeafbe07" name="STAS-QAS" systemid="KEQ" mode="1" server="10.53.97.55:3200" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="9ab2f580-49f6-4b46-b827-60bfebce0406" name="STAS-PRD" systemid="KEP" msid="2ccef8f3-72cd-4799-94a1-5db0d1385fbd" server="KGGROUP" sncname="p:CN=SAPServiceKEP@cimc.com" dcpg="2" sncop="0"/>
+		<Service type="SAPGUI" uuid="4eaaad92-8552-4133-adb1-1bd79ba12d05" name="SEP" systemid="SEP" mode="1" server="10.86.68.7:3250" sncop="-1" dcpg="2"/>
+		<Service type="SAPGUI" uuid="02c6ae25-510c-4795-8f50-626a4166751f" name="S4D" systemid="S4D" mode="1" server="192.168.254.10:3200" sncop="-1" dcpg="2" routerid="aaf41158-28cb-4cee-a0d9-696711057723"><Memo xml:space="preserve">/H/8.209.105.73
+</Memo></Service>
+		<Service type="SAPGUI" uuid="499fac8d-181c-4286-a06f-a773cb0ed114" name="ZST" systemid="ZST" mode="1" server="192.168.7.101:3202" sncop="-1" dcpg="2" routerid="aaf41158-28cb-4cee-a0d9-696711057723"><Memo xml:space="preserve">/H/8.209.105.73
+/H/misf.vxtrans.com/S/17000</Memo></Service>
+		<Service type="SAPGUI" uuid="99778dc3-afc1-43c2-b6c0-29d1af2188f6" name="S4Q" systemid="S4Q" mode="1" server="192.168.254.12:3200" sncop="-1" dcpg="2" routerid="aaf41158-28cb-4cee-a0d9-696711057723"><Memo xml:space="preserve">/H/8.209.105.73
+ROLE_TEST
+A8dzwS18e#</Memo></Service>
+		<Service uuid="82942deb-4493-4d1a-a466-aae4e10d5ff0" name="New System" description="NWBC-S4D" url="http://eus4devap01.zdeu.com:8000/sap/public/" client="210" language="EN" type="NWBC" server="192.168.254.10" sapguiid="02c6ae25-510c-4795-8f50-626a4166751f"/>
+		<Service type="SAPGUI" uuid="0ad3e132-ca5e-48de-b040-392d55cf7766" name="S4P" systemid="S4P" mode="1" server="192.168.254.67:3200" routerid="aaf41158-28cb-4cee-a0d9-696711057723" sncop="-1" dcpg="2"><Memo xml:space="preserve">/H/8.209.105.73
+ROLE_TEST
+A8dzwS18e#</Memo></Service><Service type="SAPGUI" uuid="b0d2b051-1fa5-40b0-b7d1-497fdfd9ef7a" name="TCP QAS" systemid="S4Q" mode="1" server="172.16.209.103:3200" sncop="-1" dcpg="2"><Memo xml:space="preserve">tc2vs4q01.redbullextra.com
+172.16.209.103
+T@x36839</Memo></Service><Service type="SAPGUI" uuid="7021f8df-ef5b-4891-a269-893ec92951f0" name="TCT DEV" systemid="CSD" mode="1" server="172.21.1.56:3200" sncop="-1" dcpg="2"><Memo xml:space="preserve">weiliang1!
+T@x36839
+Abcd1234</Memo></Service><Service type="SAPGUI" uuid="2c6ece85-a519-45a1-94b4-e69cb1f827a5" name="TCT QAS" systemid="CSQ" mode="1" server="172.21.1.57:3200" sncop="-1" dcpg="2"><Memo xml:space="preserve">T@x36839
+Abcd1234</Memo></Service><Service type="SAPGUI" uuid="5345d238-f0ac-4082-bfb9-ab94f800c1b2" name="TCT PRD" systemid="CSP" mode="1" server="172.21.1.61:3202" sncop="-1" dcpg="2"><Memo xml:space="preserve">T@x36839
+Abcd1234
+Aa123123!</Memo></Service><Service type="Reference" shortcut="1" reuse="1" uuid="52c98edc-5457-44e8-bbcc-ea0e551572e3" name="TCP-370-EN" description="TCP QAS" systemid="S4Q" client="370" user="NTTCN_01" language="EN" work_dir="C:\Users\nn\Documents\SAP\SAP GUI" link="b0d2b051-1fa5-40b0-b7d1-497fdfd9ef7a"/><Service type="Reference" shortcut="1" reuse="1" uuid="45bed13b-78e9-4937-8a46-7d059e7765d6" name="TCT-DEV-220-EN" description="TCT DEV" systemid="CSD" client="220" user="NTTCN_01" language="EN" work_dir="C:\Users\nn\Documents\SAP\SAP GUI" link="7021f8df-ef5b-4891-a269-893ec92951f0"/><Service type="Reference" shortcut="1" reuse="1" uuid="8dd113f2-0cbc-4274-a197-2dcb1b5f62e3" name="TCT-DEV-230-EN" description="TCT DEV" systemid="CSD" client="230" user="NTTCN_01" language="EN" work_dir="C:\Users\nn\Documents\SAP\SAP GUI" link="7021f8df-ef5b-4891-a269-893ec92951f0"/><Service type="Reference" shortcut="1" reuse="1" uuid="8de6adc9-b4fe-49e6-8865-ce5d3a4773e6" name="TCT-DEV-230-ZH" description="TCT DEV" systemid="CSD" client="230" user="NTTCN_01" language="ZH" work_dir="C:\Users\nn\Documents\SAP\SAP GUI" link="7021f8df-ef5b-4891-a269-893ec92951f0"/><Service type="SAPGUI" uuid="138abec0-ac67-4f3f-98a0-510b0e41852c" name="ZSP" systemid="ZSP" mode="1" server="192.168.7.103:3210" sncop="-1" dcpg="2"><Memo xml:space="preserve">/H/8.209.105.73</Memo></Service><Service type="SAPGUI" uuid="115b33a2-1de7-4371-b7df-3556d40dcf37" name="ZSD" systemid="ZSD" mode="1" server="192.168.5.100:3200" routerid="aaf41158-28cb-4cee-a0d9-696711057723" sncop="-1" dcpg="2"/><Service type="SAPGUI" uuid="a7a177d7-c279-474d-832c-dbff11259f97" name="ZDPRD" systemid="ZSP" msid="20375f53-ef35-4dc3-a1db-cfc302715f9a" server="PUBLIC" sncop="-1" dcpg="2"/></Services>
+	<Workspaces>
+		<Workspace uuid="52571424-d868-4355-9e2c-4697fa61d92a" name="Local" expanded="1" hidden="0">
+			<Item uuid="34616ebe-a282-4ba2-a883-e501b351d218" serviceid="c8e055b2-4101-490a-a1bf-b0fca42cdf76"/>
+			<Item uuid="bcff58dc-a763-4463-bd24-6c05d96365d8" serviceid="9952b070-5d82-43e9-a374-7ee621a962b1"/>
+			<Item uuid="09d674cc-0199-4546-bd8d-f1e4d8d02e58" serviceid="1176e285-d9b2-4589-8229-c9e2816d33be"/>
+			<Item uuid="bf7598a9-bc23-405c-bd22-3d8d9442db04" serviceid="8fa4cf38-1acd-4c49-a7db-d66c09ebe4e3"/>
+			<Item uuid="7b1b2f2f-d1c3-420b-9b4b-4e6abae85c39" serviceid="27883980-3517-40cc-a988-ddce17dec29e"/>
+			<Node uuid="2eb3571d-46ce-433a-87cf-47d8a5f9b223" name="BOGE" hidden="0" expanded="0">
+				<Item uuid="82ff6bfb-6129-46b6-9d4f-0ad10abc06fc" serviceid="1dc7f5d5-d0ab-4507-9766-1ec7e8b53d59"/>
+				<Item uuid="51a3f242-451c-43ed-bb7e-ef5ce3b774cc" serviceid="e9882b32-bef7-4870-b937-4da11d8af347"/>
+				<Item uuid="82ba06f7-588c-4a19-bb1f-94d539be60ec" serviceid="e4793827-bbb3-40a9-afaa-4a7236b0fa78"/>
+				<Item uuid="5796f327-b4d4-47a0-8519-194741dc8322" serviceid="06819297-0655-42b2-9923-1da471581e63"/>
+				<Item uuid="270fdfa6-d256-4536-b229-c10d1b0f6f43" serviceid="13efc6f2-fa54-4ab3-8b4e-c942a5bec6f7"/>
+				<Item uuid="f3cf03a0-8e55-495c-bc6a-68a5dbc84c3a" serviceid="f9fc5f54-16ca-4763-a9b8-5d309daf2dce"/>
+				<Item uuid="004dc9e1-dc4d-4134-9c93-822f44284921" serviceid="2788c025-53a4-4f52-b484-823d3e371383"/>
+				<Item uuid="1833f712-4818-497a-ab2c-05335b74a56a" serviceid="a307b78d-e3b3-41b6-8e65-b5653ce7b6e0"/>
+				<Item uuid="1f987b16-80a9-4b84-b835-5646599b4cae" serviceid="dfb68fe3-55b5-4419-9c1a-e4377e637226"/>
+				<Item uuid="9257da0a-8d1e-4985-a6ff-060e40199ade" serviceid="d098d5a3-9f3d-4291-9875-0415cadb9008"/>
+				<Item uuid="80ca693e-497c-4e63-9899-9a450330b4fa" serviceid="cda2a25f-9be5-4450-b792-6413ab62d60b"/>
+				<Item uuid="a3003b91-ff9a-4b14-814d-497c3cec33ce" serviceid="7a6ee55d-9515-4db9-8af1-c60b80dd57f0"/>
+				<Item uuid="829689c3-5732-4ceb-b2d7-e8ff5266e4f6" serviceid="c11e93a3-45b6-4502-8922-32351d6268b7"/>
+				<Item uuid="1b0f3284-9695-4d33-b1c3-6e034a1f6c5f" serviceid="1ed8c85a-7dc5-4c9e-8443-cef9b9b07afa"/>
+				<Item uuid="1aae8a1f-08f5-46bf-aebc-99fdf76f3ff8" serviceid="ee7785e6-a2a6-44d9-ac6b-f2a9282ed620"/>
+				<Item uuid="fede34f5-8709-4e71-8bb1-2bf62fb7e03a" serviceid="fdbd1009-5625-49f5-983e-0174d5b5c77c"/>
+			</Node>
+			<Node uuid="89b0682d-f495-4660-96ad-56e2162ca7cf" name="Hilite" hidden="0">
+				<Item uuid="6f2ecf41-f303-41b5-b8e7-405e60ebfc0c" serviceid="4449d720-4891-4d73-9b87-32eac2ba910b"/>
+				<Item uuid="50df9ae9-d3e8-495b-bfde-47a0d271c2cf" serviceid="3226b7f3-46d7-4cbd-9288-80a6d2c2a0e7"/>
+				<Item uuid="a57740a0-a310-45e9-b20e-c28b2af645fb" serviceid="e163034d-16a8-4d98-b2ba-b8f7101f635d"/>
+				<Item uuid="5a929315-7cae-4d95-b64b-689b7105dfa4" serviceid="ee6a1685-71cc-4c4f-ae2c-e5f6dfb7d4b9"/>
+				<Item uuid="ccf2929c-076b-4d15-9d23-eaa881d882ac" serviceid="d7c51cb9-4934-4a96-8d4c-7973569afe2d"/>
+				<Item uuid="9a6b79f8-96ff-4289-890e-dbdf0d0e1e81" serviceid="83a05655-31f3-4004-81e5-fe95729a1d6e"/>
+				<Item uuid="73ff8b5a-3f84-4893-863a-9cc41c38c602" serviceid="18637956-b233-4114-b186-b04697da968b"/>
+			</Node>
+			<Node uuid="6cf82f13-3c95-447e-86ad-3fbf480adb07" name="ITE DEMO" hidden="0">
+				<Item uuid="624f1ae4-dc0b-4120-b26d-f2b1b21178b6" serviceid="3ba4bf63-ad5c-4e78-9f57-61d0bdc4f598"/>
+				<Item uuid="244765cf-f08e-460a-a138-4e4def361ef6" serviceid="a69b23b2-2f3c-4282-8887-54393d70317e"/>
+				<Item uuid="fb4cac2f-34e8-4dc0-90e3-7afbfc362320" serviceid="3cc2885a-23e6-49c4-9f3c-5c530fb45516"/>
+				<Item uuid="87929c9e-d2e7-46a0-be64-1241262237a8" serviceid="9b0a3001-cbb5-42e4-b695-077414b9c2a8"/>
+				<Item uuid="22789607-6699-430c-a3da-a5ac29996887" serviceid="e014da48-bb96-4d56-80ea-5326f87dbea7"/>
+				<Item uuid="ef111806-3da6-48d5-b756-5964c7417e84" serviceid="a07c881b-64fb-4dc5-b125-ce6f1750047d"/>
+				<Item uuid="dfde92a0-7cfe-4151-8b43-aba6aea69cd7" serviceid="41ebf05b-a166-49fe-b5f3-b724c8aac0e5"/>
+			</Node>
+			<Item uuid="91f1ec70-04b2-462a-bc9d-e008b8ae2f71" serviceid="bd72f378-4c00-4e87-aa76-913d44a00a6f"/>
+			<Item uuid="172ad644-bbd2-4fee-b661-bd62ec6bc495" serviceid="0c2be45d-ae87-4328-8967-18d21bbf5f4e"/>
+			<Item uuid="b74dd17e-aea8-47a3-81bb-5ac6c29646d8" serviceid="d0264da2-a0f2-4d86-b8c0-eae0b1aa8dd7"/>
+			<Item uuid="6d142bfe-3b28-4857-84c5-6c4724a8f5d2" serviceid="37ca8913-aa92-4db1-aced-971a62967d46" hidden="1"/>
+			<Item uuid="35f510d3-fdb5-475a-afea-f4a2241c6bd9" serviceid="2189a0a1-67ef-4e90-98b7-2d3dcba128e6" hidden="1"/>
+			<Node uuid="08efc82c-bfc6-430b-a424-d78677693323" name="STAS" hidden="0">
+				<Item uuid="d3675a85-ddc2-4b68-a6ec-b4bd319c62c9" serviceid="e7ee3d19-74ef-4d92-ac48-893dadb1a971"/>
+				<Item uuid="de707256-251c-4ba2-b1bd-65ec2badef97" serviceid="0fee8f70-cb56-40de-9207-3eabbd14f495"/>
+				<Item uuid="ef7c8033-9d23-4d97-bfdf-05a98426fd9d" serviceid="e5f2dd99-8452-4581-87da-e18d1b9e1e74"/>
+				<Item uuid="92dc11d9-5e6c-4420-8512-8bb7e7390103" serviceid="5ae07867-ffc6-467f-8d0e-dd8cfeafbe07"/>
+				<Item uuid="9d814793-c21e-4865-9958-7f5994d01b74" serviceid="9ab2f580-49f6-4b46-b827-60bfebce0406"/>
+			</Node>
+			<Node uuid="aba053cb-b9e4-45e0-82db-fca9757aa8d9" name="Schweizer" hidden="0">
+				<Item uuid="9503cb38-2906-4d46-a66a-f82fd3be66ae" serviceid="4eaaad92-8552-4133-adb1-1bd79ba12d05"/>
+			</Node>
+			<Node uuid="2a9fa2f8-6500-4bb9-bfb6-2181a2ed55e3" name="KACO" hidden="0" expanded="1">
+				<Item uuid="0cf1b80b-cd25-4e79-8866-20d79c81cb30" serviceid="02c6ae25-510c-4795-8f50-626a4166751f"/>
+				<Item uuid="bf95ad8e-836a-4421-bc81-7e14ef00158c" serviceid="499fac8d-181c-4286-a06f-a773cb0ed114"/>
+				<Item uuid="f6e8e77d-e8b3-4acd-8da8-72f5c8e880db" serviceid="0ad3e132-ca5e-48de-b040-392d55cf7766"/><Item uuid="967870a5-176c-4bb0-af65-0f99f262ef1e" serviceid="99778dc3-afc1-43c2-b6c0-29d1af2188f6"/>
+				<Item uuid="2f73aee8-d699-473e-ac39-5f2d0fe97fd3" serviceid="138abec0-ac67-4f3f-98a0-510b0e41852c"/><Item uuid="6ae9fa57-e1ec-4ee8-871f-d3d6d3571cd7" serviceid="115b33a2-1de7-4371-b7df-3556d40dcf37"/><Item uuid="43550535-b5c5-432e-bd71-b3474e4a54cc" serviceid="a7a177d7-c279-474d-832c-dbff11259f97"/></Node>
+			<Item uuid="23720ff6-f2ae-407f-8ac1-a1ba0ddd0132" serviceid="82942deb-4493-4d1a-a466-aae4e10d5ff0"/>
+			<Node uuid="2174f818-3ae5-4bd8-8aa8-225411dd7ed2" name="TCP" expanded="1"><Item uuid="b0b471f6-e634-4dbc-8eb4-1b8a81a2023f" serviceid="b0d2b051-1fa5-40b0-b7d1-497fdfd9ef7a"/><Item uuid="443f781c-111b-4a71-9cab-d18a2f3d7197" serviceid="7021f8df-ef5b-4891-a269-893ec92951f0"/><Item uuid="5b61fae0-132d-4a98-b046-fe34f71bc3fa" serviceid="2c6ece85-a519-45a1-94b4-e69cb1f827a5"/><Item uuid="ad231db6-a62b-42d3-bf22-466034c1371a" serviceid="5345d238-f0ac-4082-bfb9-ab94f800c1b2"/></Node><Node uuid="3d3d768d-e357-4105-9abe-e36f9e75cae2" name="TCT"><Item uuid="9a954259-0ea8-41fc-b515-859c6939f70f" serviceid="52c98edc-5457-44e8-bbcc-ea0e551572e3"/><Item uuid="d6dd6b0c-0855-4522-bf5f-2c8d03518d2e" serviceid="45bed13b-78e9-4937-8a46-7d059e7765d6"/><Item uuid="5a56b5d4-60ed-4ff3-adfe-351ceb840f90" serviceid="8de6adc9-b4fe-49e6-8865-ce5d3a4773e6"/><Item uuid="4c59bc91-3901-48d4-bbd1-432de1d3b7e5" serviceid="8dd113f2-0cbc-4274-a197-2dcb1b5f62e3"/></Node></Workspace>
+	</Workspaces>
+	<Routers>
+		<Router uuid="c1019c1c-3cca-4aff-bf63-be96c3ef4c87" name="/H/180.166.99.166" description="/H/180.166.99.166" router="/H/180.166.99.166"/>
+		<Router uuid="92f1be5c-7736-42fb-bda1-4d57e7498439" name="/H/florida.itelligence.de/S/3293/H/iossgms0.itelligence.org" description="/H/florida.itelligence.de/S/3293/H/iossgms0.itelligence.org" router="/H/florida.itelligence.de/S/3293/H/iossgms0.itelligence.org"/>
+		<Router uuid="15efdcc0-2470-4449-8ffd-fb1645ccbfcb" name="/H/194.76.45.211/S/3292/H/iossgms0.itelligence.org" description="/H/194.76.45.211/S/3292/H/iossgms0.itelligence.org" router="/H/194.76.45.211/S/3292/H/iossgms0.itelligence.org"/>
+		<Router uuid="4b81a472-5ed9-4739-9364-56fc571886ff" name="/H/203.205.242.135/W/pass/203.105.14.25" description="/H/203.205.242.135/W/pass/203.105.14.25" router="/H/203.205.242.135/W/pass/203.105.14.25"/>
+		<Router uuid="fd68f4b6-fea2-4114-b35b-e3bef93bfdc6" name="/H/203.215.242.135/W/pass/203.105.14.25/h/" description="/H/203.215.242.135/W/pass/203.105.14.25/h/" router="/H/203.215.242.135/W/pass/203.105.14.25/h/"/>
+		<Router uuid="12533a20-0eb9-4e01-afb9-bd317e6f963d" name="/H/203.215.242.135/W/pass/203.105.14.25" description="/H/203.215.242.135/W/pass/203.105.14.25" router="/H/203.215.242.135/W/pass/203.105.14.25"/>
+		<Router uuid="73d6673d-33f5-49b3-bb3e-b03cf618784a" name="/H/203.215.242.135/W/pass/H/203.105.14.25" description="/H/203.215.242.135/W/pass/H/203.105.14.25" router="/H/203.215.242.135/W/pass/H/203.105.14.25"/>
+		<Router uuid="31f1aee6-7d8b-4ef7-a346-e01e229b3025" name="/H/39.98.36.184" description="/H/39.98.36.184" router="/H/39.98.36.184"/>
+		<Router uuid="e2fdb401-2320-49ae-a710-cde932157023" name="/H/220.179.244.139/S/3299" description="/H/220.179.244.139/S/3299" router="/H/220.179.244.139/S/3299"/>
+		<Router uuid="fb4fdb9d-2b07-471f-b6e4-0b82762dc528" name="/H/111.39.13.151/S/3299" description="/H/111.39.13.151/S/3299" router="/H/111.39.13.151/S/3299"/>
+		<Router uuid="e2d45ad7-d385-420c-a5bb-3ba0522887fb" name="/H/111.39.13.151" description="/H/111.39.13.151" router="/H/111.39.13.151"/>
+		<Router uuid="aaf41158-28cb-4cee-a0d9-696711057723" name="/H/8.209.105.73" description="/H/8.209.105.73" router="/H/8.209.105.73"/></Routers>
+	<Messageservers>
+		<Messageserver uuid="2ccef8f3-72cd-4799-94a1-5db0d1385fbd" name="KEP" host="kgprds4.cimc.com" port="3601"/>
+		<Messageserver uuid="20375f53-ef35-4dc3-a1db-cfc302715f9a" name="ZSP" host="192.168.7.102" port="3601"/></Messageservers>
+	<Includes>
+		<Include url="http://www.hs-regensburg.de/downloads/sap/sapgui.xml" description="SAP Reserved" index="0"/>
+	</Includes>
+</Landscape>
